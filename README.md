@@ -40,6 +40,23 @@ and teaches you one bit as a test. It takes a few minutes.
 5. **Saved only after you answer correctly**, with links to related bits.
 6. **Brought back** after 1, 3, 7, 16, and 35 days. A miss resets the gap.
 
+## What a vault looks like
+
+Both pictures below are made-up examples on an introductory statistics topic.
+They are illustrations, not screenshots of a real learner's vault.
+
+**A saved bit.** The explanation, how to read the formula out loud, the
+question, the learner's own answer, and links to related bits. The same bit as
+a plain file is in [`examples/`](examples/).
+
+![An example bit](examples/example-bit.png)
+
+**The vault as a map.** Each small dot is a saved bit and each large dot is a
+topic. Dashed lines mark a bit that builds on a bit from another topic. In
+Obsidian this is the graph view.
+
+![An example vault map](examples/example-map.png)
+
 ## What is in this repository
 
 | File | What it is |
@@ -47,6 +64,7 @@ and teaches you one bit as a test. It takes a few minutes.
 | `SKILL.md` | The rules the AI follows when teaching. Plain text. Edit it to fit how you learn. |
 | `SETUP.md` | Step by step instructions the AI follows to install the skill and create your vault. |
 | `vault-template/` | The empty vault: a learner profile, a topic map, a review log, and folders for bits. |
+| `examples/` | A made-up example bit and the two pictures above. Not copied into your vault. |
 
 ## Make it yours
 
