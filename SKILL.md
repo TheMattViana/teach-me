@@ -146,10 +146,29 @@ earlier bit before moving on. Mix topics on purpose.
 If more than 3 bits are due, do the 3 oldest and leave the rest. Review must not
 crowd out the new bit.
 
-**Quiz on request.** When the learner says "quiz me", optionally with a topic,
-build the quiz from the vault: pick bits across the named topics, weight toward
-the ones that are due or were missed before, ask them one per turn under the
-rules above, and update the log after each answer.
+## Quiz
+
+When the learner says "quiz me", with or without a topic, run a quiz built only
+from their vault.
+
+1. **Read the bits first.** Open `Topics/<Topic>.md` and read every bit it
+   lists. With no topic named, use `Map.md` and `Review Log.md` to choose bits
+   across topics. Ask only about what is in those bits, never about material
+   the learner has not been taught.
+2. **Choose the bits.** Default to 5 questions unless the learner gives a
+   number. Put first the bits that are due or were missed before, then fill
+   with the rest in mixed order.
+3. **One question per turn, each tied to exactly one bit.** Follow the rules
+   under "How to ask": the learner produces the answer, the example is changed,
+   no hints.
+4. **After each answer, point to the bit.** Say whether it was right, what
+   slipped if it was not, and name the bit the question came from as a link,
+   for example `Review: [[<Topic> - Bit 3 (<short title>)]]`. Give the link
+   after the answer and not with the question, so it cannot work as a hint.
+5. **Update the log** for that bit under the rules in "After the answer".
+6. **End with a short summary.** The score, then the list of bits to review as
+   links, missed ones first. Do not teach the missed bits again unless the
+   learner asks.
 
 ## Six lenses across a topic
 
